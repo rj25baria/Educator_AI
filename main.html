@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Educator AI Chatbot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #d1e8ff, #ffffff, #d1e8ff);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .chat-box {
+            width: 100%;
+            max-width: 1200px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .right-panel {
+            background: #e6f2ff;
+            text-align: center;
+        }
+
+        .chat-footer {
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+
+        .terms {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .terms a {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .right-panel {
+                padding: 20px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container chat-box">
+        <div class="row flex-column-reverse flex-md-row">
+            <!-- Left Panel -->
+            <div class="col-md-8 p-4 d-flex flex-column justify-content-between">
+                <div>
+                    <h5>Hello! I am <strong>Educator</strong>, an <strong>AI Agent</strong> here to assist you.</h5>
+                    <p>How may I help you?</p>
+                    <div class="my-3">
+                        <button class="btn btn-outline-primary me-2 mb-2">Provide teachers feedback</button>
+                        <button class="btn btn-outline-primary mb-2">Learn about AI in education</button>
+                    </div>
+
+                    <!-- Jotform AI Chatbot iframe -->
+                    <iframe id="JotFormIFrame-0196fc2f60ae776cae036f01a0e01be972c0"
+                        title="Education AI Chatbot Template" onload="window.parent.scrollTo(0,0)"
+                        allowtransparency="true" allow="geolocation; microphone; camera; fullscreen"
+                        src="https://agent.jotform.com/0196fc2f60ae776cae036f01a0e01be972c0?embedMode=iframe&background=1&shadow=1"
+                        frameborder="0" style="width: 100%; height: 600px; border: none;" scrolling="no">
+                    </iframe>
+                </div>
+                <div class="chat-footer mt-4">
+                    <p class="terms">
+                        By chatting, you agree to <a href="#">AI Terms of Use</a>. <strong>Jotform AI</strong>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Right Panel -->
+            <div class="col-md-4 right-panel p-4">
+                <img src="rb.jpeg" alt="Educator AI" class="img-fluid rounded mb-3">
+                <h5><strong>Educator</strong> <sup>AI</sup></h5>
+                <p>Education Chatbot</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jotform Embed Script -->
+    <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+    <script>
+        window.jotformEmbedHandler("iframe[id='JotFormIFrame-0196fc2f60ae776cae036f01a0e01be972c0']", "https://www.jotform.com");
+    </script>
+
+</body>
+
+</html>
