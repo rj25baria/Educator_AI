@@ -42,4 +42,9 @@ Basically, it’s like having a teaching assistant who never needs a coffee brea
 - ✨ A clean, modern interface for a smooth UX
 - 🧠 A sprinkle of creativity to keep things fun
 
+
+🌐 Portfolio: https://portfolio-wi28.vercel.app/  
+💼 LinkedIn: linkedin.com/in/ranjan-baria-21aa70288/
+💻 GitHub: https://github.com/rj25baria/
+
 ---
