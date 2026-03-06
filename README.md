@@ -44,7 +44,7 @@ Basically, it’s like having a teaching assistant who never needs a coffee brea
 
 
 🌐 Portfolio: https://portfolio-wi28.vercel.app/  
-💼 LinkedIn: linkedin.com/in/ranjan-baria-21aa70288/
+💼 LinkedIn:https://www.linkedin.com/in/ranjan-baria-21aa70288/
 💻 GitHub: https://github.com/rj25baria/
 
 ---
